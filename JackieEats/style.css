@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 70vh;
+}
+
+.j-icon {
+    padding: 10px;
+}
+
+nav {
+    font-size: 20px;
+}
+
+footer {
+    position: relative;
+    margin-top: 830px;
+    text-align: center;
+    height: 100px;
+}
+
+
+.copyright {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+
+
+.fab {
+    border: transparent;
+    width: 45px;
+    height: 41px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2.1em;
+    border-radius: 5px;
+    transition: all .4s;
+    color: black;
+    position: relative;
+    bottom: 0;
+    margin: 10px;
+    float: right;
+    bottom: 50px;
+}
+
+.restaurant {
+    width: 100%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    min-height: 100vh;
+    grid-gap: 2rem;
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-container img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+}
+
+.break {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color: black;
+}
+
+.dine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color: white; 
+}
+
+
+.modal.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+
+.full-img.open {
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+.types {
+    text-align: center;
+}
+
+
+.maps {
+    padding-top: 20px;
+    justify-content: center;
+}
+
+
+
+.weekly {
+    margin-left: 160px;
+}
+
+.sunday {
+    margin-right: 150px;
+    margin-left: 10px;
+}
