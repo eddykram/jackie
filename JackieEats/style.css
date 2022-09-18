@@ -138,4 +138,9 @@ footer {
 
 .space {
     text-decoration: none;
+    padding: 5px;
+}
+
+.quick {
+    text-decoration: none;
 }
