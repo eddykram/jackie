@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+h4 {
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 100px;
+    margin: 20px;
+}
+
+
+
+.btn {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    border: solid black 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    border: solid white 3px;
+    color: white;
+}
