@@ -22,7 +22,7 @@ body {
 .img-container img {
     width: 50%;
     height: 50%;
-    /*object-fit: cover;*/
+    object-fit: cover;
     transition: all 0.3s ease-out;
     cursor: pointer;
 }
@@ -50,7 +50,7 @@ body {
 
 .full-img {
     position: absolute;
-    height: 70%;
+    height: 35%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
