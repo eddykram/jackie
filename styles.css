@@ -20,7 +20,7 @@ body {
 }
 
 .img-container img {
-    width: 100%;
+    width: 50%;
     height: 50%;
     object-fit: cover;
     transition: all 0.3s ease-out;
